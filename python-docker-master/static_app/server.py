@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():  
-    data = "Hello, World"
+    data = "Helloo moto"
     return render_template('index.html', data=data)
 
 # run the application
